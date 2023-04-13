@@ -1,0 +1,22 @@
+{
+  "name": "protracortypescriptcucumber",
+  "version": "1.0.0",
+  "description": "framework for protractor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mariam",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "@types/jasminewd2": "^2.0.10"
+  },
+  "dependencies": {
+    "protractor": "^7.0.0",
+    "jasmine": "~4.6.0",
+    "@types/jasmine": "^4.3.1",
+    "@types/jasminewd2": "^2.0.10",
+    "typescript": "^5.0.4"
+  }
+}
