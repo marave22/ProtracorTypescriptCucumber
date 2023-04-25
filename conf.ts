@@ -1,9 +1,10 @@
 import {Config} from "protractor";
 
-exports.config = {
-    framework: 'jasmine',
+export let config: Config = {
+    directConnect: true,
+    // framework: 'jasmine',
     seleniumAddress: 'http://localhost:4444/wd/hub',
-    specs: ['spec.js'],
+    specs: ['testspecs.js'],
     capabilities: {
         browserName: 'chrome'
     }
